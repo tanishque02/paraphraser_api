@@ -6,7 +6,7 @@ This toolkit is created from scratch using Pegasus Model (PEGASUS: Pre-training 
 ### About
 It is recommended to run rephraser_source_code.ipynb on local system
 rather than Google Colab because the saved model file is more than 2GB in size, and attempting to 
-download it crashes the environment.Running it locally will take time but no issues will be there 
+download it crashes the environment. Running it locally will take time but no issues will be there 
 during saving the model.
 
 
@@ -41,7 +41,7 @@ For the flask API
 
 ## Setting up
 ### Getting the trained model
-1. 1. Run all the cells after installing all the dependencies mentioned above.
+1. Run all the cells after installing all the dependencies mentioned above.
 2. A "model2.pth" file will be created in the same directory where the program is.
 
 ![model2.pth](images/model2.png)
@@ -55,5 +55,6 @@ For the flask API
   streamlit run api.py
 ```
 ![st](images/st.png)
+
 4. The API will run at localhost:8501
-![Paraphraser](images/Paraphraser.py)
+![Paraphraser](images/Paraphraser.png)
